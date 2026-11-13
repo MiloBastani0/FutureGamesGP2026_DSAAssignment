@@ -1858,6 +1858,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9552785ea8b3fd040be29c152bed5d26, type: 3}
   m_PrefabInstance: {fileID: 614241986}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &618498613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1057683460427819544, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+  m_PrefabInstance: {fileID: 6825722813265351610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &618498614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618498613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5592b25c44429b914438d9e820ae26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Environment.Computer
+  testTask: {fileID: 0}
+  starUpTask: []
+  sorter: {fileID: 11400000, guid: 29d49728cd7e19b41a78eb6222edb027, type: 2}
+  EmployeeDataParser: {fileID: 11400000, guid: ad374dfedb5136c4f9de95445b89a297, type: 2}
+  SecretTask: {fileID: 11400000, guid: f9632953ab0aaf34aa41afa80010fb6e, type: 2}
+  Searcher: {fileID: 11400000, guid: 3c7278d8ff10cbe4a9d554258f23ae6e, type: 2}
+  BinaryTreeSearcher: {fileID: 11400000, guid: fab2fdb9fe7cec449aa417c53a0228a6, type: 2}
+  employees: []
 --- !u!1001 &687231672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5638,9 +5663,33 @@ PrefabInstance:
       value: 3.0195637
       objectReference: {fileID: 0}
     - target: {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+      propertyPath: sorter
+      value: 
+      objectReference: {fileID: 11400000, guid: 29d49728cd7e19b41a78eb6222edb027, type: 2}
+    - target: {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
       propertyPath: testTask
       value: 
       objectReference: {fileID: 11400000, guid: ff03f0eefaebe9e40aa1e0d120fb14ac, type: 2}
+    - target: {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+      propertyPath: EmployeeDataParser
+      value: 
+      objectReference: {fileID: 11400000, guid: ad374dfedb5136c4f9de95445b89a297, type: 2}
+    - target: {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+      propertyPath: starUpTask.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+      propertyPath: 'starUpTask.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 64fc07addb8093849bc4100289bb526a, type: 2}
+    - target: {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+      propertyPath: 'starUpTask.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: ff03f0eefaebe9e40aa1e0d120fb14ac, type: 2}
+    - target: {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+      propertyPath: 'starUpTask.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a4afde7234e4df04e8842c525559bd81, type: 2}
     - target: {fileID: 5694532769315531512, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5681,10 +5730,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1261029998129311158, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1057683460427819544, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 618498614}
   m_SourcePrefab: {fileID: 100100000, guid: 7d560e7070230eb46aeb1576bedf22f3, type: 3}
 --- !u!1001 &8404672306686481740
 PrefabInstance:
